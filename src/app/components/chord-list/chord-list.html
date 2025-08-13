@@ -1,0 +1,3 @@
+@for (song of songList; track $index) {
+    <li (click)="goToSong(song.link)"> {{ song.title }} </li>
+}
