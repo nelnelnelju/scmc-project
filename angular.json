@@ -21,6 +21,7 @@
               "base": "docs",
               "browser": ""
             },
+            "baseHref": "/chord-list/",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
