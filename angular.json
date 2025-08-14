@@ -21,7 +21,7 @@
               "base": "docs",
               "browser": ""
             },
-            "baseHref": "/chord-list/",
+            "baseHref": "/scmc-project/",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
