@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "chord-list": {
+    "scmc-project": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -62,10 +62,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "chord-list:build:production"
+              "buildTarget": "scmc-proj:build:production"
             },
             "development": {
-              "buildTarget": "chord-list:build:development"
+              "buildTarget": "scmc-proj:build:development"
             }
           },
           "defaultConfiguration": "development"
