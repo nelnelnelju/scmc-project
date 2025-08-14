@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 import { ChordList } from "../chord-list/chord-list";
-import { Header } from "../header/header";
 
 @Component({
   selector: 'app-home',
-  imports: [ChordList, Header],
+  imports: [ChordList],
   templateUrl: './home.html',
   styleUrl: './home.scss'
 })
