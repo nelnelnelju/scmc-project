@@ -1,6 +1,6 @@
 import { Component, inject } from '@angular/core';
-import { SONGLIST } from '../../chord-list';
 import { NavigationExtras, Router } from '@angular/router';
+import { SONGLIST } from '../../song-list';
 
 @Component({
   selector: 'app-chord-list',

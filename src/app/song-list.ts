@@ -1,6 +1,6 @@
 export const SONGLIST = [
   {
-    link: 'https://docs.google.com/document/d/16q21UxnFLS9gEqTorPP9v1FMrfloH-L6/preview?usp=drive_link&ouid=113146195665386428162&rtpof=true&sd=true',
+    link: 'https://docs.google.com/document/d/16q21UxnFLS9gEqTorPP9v1FMrfloH-L6/preview?usp=sharing&ouid=113146195665386428162&rtpof=true&sd=true',
     title: 'Dakilang Katapatan',
   },
   {
