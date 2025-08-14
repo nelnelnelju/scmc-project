@@ -8,6 +8,14 @@ export const SONGLIST = [
     title: 'Hindi Ka Nagkulang',
   },
   {
+    link: 'https://docs.google.com/document/d/1i1XMCGeli-_6msTHJZ8EO6jTL5sAMpK9/preview?usp=drive_link&ouid=113146195665386428162&rtpof=true&sd=true',
+    title: 'Sapat Na Higit Pa',
+  },
+  {
+    link: 'https://docs.google.com/document/d/1ISTNjqv7QHXN1MhacgMqxLUrdhEYqDpi/preview?usp=drive_link&ouid=113146195665386428162&rtpof=true&sd=true',
+    title: 'Walang Mahirap Sayo',
+  },
+  {
     link: 'https://docs.google.com/document/d/1ZemSNGcdHH5DAuW5l1CZm4UW_L2h9ga2/preview?usp=drive_link&ouid=113146195665386428162&rtpof=true&sd=true',
     title: 'Ikaw Sa Buhay Ko',
   },
@@ -22,13 +30,5 @@ export const SONGLIST = [
   {
     link: 'https://docs.google.com/document/d/1Mg01DR9cJaLodYEoiWycFrpFgSmbd1Qp/preview?usp=drive_link&ouid=113146195665386428162&rtpof=true&sd=true',
     title: 'Salamat Panginoon',
-  },
-  {
-    link: 'https://docs.google.com/document/d/1i1XMCGeli-_6msTHJZ8EO6jTL5sAMpK9/preview?usp=drive_link&ouid=113146195665386428162&rtpof=true&sd=true',
-    title: 'Sapat Na Higit Pa',
-  },
-  {
-    link: 'https://docs.google.com/document/d/1ISTNjqv7QHXN1MhacgMqxLUrdhEYqDpi/preview?usp=drive_link&ouid=113146195665386428162&rtpof=true&sd=true',
-    title: 'Walang Mahirap Sayo',
   },
 ];
