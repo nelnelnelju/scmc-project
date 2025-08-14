@@ -1,5 +1,5 @@
 <div class="container">
   @for (song of songList; track $index) {
-  <a class="song-list" (click)="goToSong(song.link)"> {{ song.title }} </a>
+  <a class="song-list" (click)="goToSong(song)"> {{ song.title }} </a>
   }
 </div>

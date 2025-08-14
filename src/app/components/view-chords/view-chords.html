@@ -1,6 +1,8 @@
-<div (click)="goBack()" class="back">
-    < BACK
+<div class="buttons">
+  <div (click)="goBack()" class="back">< BACK</div>
+  <div (click)="openLink()" class="link">Download here</div>
 </div>
+
 <div class="container">
   <iframe class="window" [src]="link" frameborder="0"></iframe>
 </div>

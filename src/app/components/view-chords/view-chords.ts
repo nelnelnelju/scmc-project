@@ -12,16 +12,21 @@ export class ViewChords implements OnInit {
   private readonly router = inject(Router);
   private readonly sanitizer = inject(DomSanitizer);
   link!: SafeUrl;
+  navLink!: any;
+  downloadLink!: any;
 
   ngOnInit(): void {
-    const navigation = this.router.lastSuccessfulNavigation?.extras
-    const navLink = navigation?.state?.['link'];
-    console.log('navlink', navLink);
-    
-    this.link = this.sanitizer.bypassSecurityTrustResourceUrl(navLink)
+    const navigation = this.router.lastSuccessfulNavigation?.extras;
+    this.navLink = navigation?.state?.['song'].viewLink;
+    this.downloadLink = navigation?.state?.['song'].downloadLink;
+    this.link = this.sanitizer.bypassSecurityTrustResourceUrl(this.navLink);
   }
 
   goBack() {
-    this.router.navigate(['home'])
+    this.router.navigate(['home']);
+  }
+
+  openLink() {
+    window.open(this.downloadLink, '_blank');
   }
 }

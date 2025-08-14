@@ -1,12 +1,17 @@
-.back {
-  margin-left: 50px;
-  cursor: pointer;
-  width: fit-content;
-  margin-bottom: 10px;
-  font-size: 25px;
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
 
-  &:hover {
-    font-weight: 600;
+  .back,
+  .link {
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 25px;
+
+    &:hover {
+      font-weight: 600;
+    }
   }
 }
 

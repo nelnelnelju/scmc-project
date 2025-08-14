@@ -17,10 +17,10 @@ export class ChordList implements OnInit {
     this.songList = SONGLIST.sort((a, b) => a.title.localeCompare(b.title));
   }
 
-  goToSong(link: string) {
+  goToSong(song: Songlist) {
     const extras: NavigationExtras = {
       state: {
-        link: link,
+        song: song,
       },
     };
     this.router.navigateByUrl('view', extras);

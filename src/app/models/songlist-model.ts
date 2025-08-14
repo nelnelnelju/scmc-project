@@ -1,4 +1,5 @@
 export interface Songlist {
-  link: string;
+  viewLink: string;
   title: string;
+  downloadLink: string;
 }
