@@ -62,10 +62,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "scmc-proj:build:production"
+              "buildTarget": "scmc-project:build:production"
             },
             "development": {
-              "buildTarget": "scmc-proj:build:development"
+              "buildTarget": "scmc-project:build:development"
             }
           },
           "defaultConfiguration": "development"
