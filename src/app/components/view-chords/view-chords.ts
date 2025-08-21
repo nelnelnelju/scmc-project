@@ -14,11 +14,13 @@ export class ViewChords implements OnInit {
   link!: SafeUrl;
   navLink!: any;
   downloadLink!: any;
+  youtubeLink!: any;
 
   ngOnInit(): void {
     const navigation = this.router.lastSuccessfulNavigation?.extras;
     this.navLink = navigation?.state?.['song'].viewLink;
     this.downloadLink = navigation?.state?.['song'].downloadLink;
+    this.youtubeLink = navigation?.state?.['song'].youtubeLink;
     this.link = this.sanitizer.bypassSecurityTrustResourceUrl(this.navLink);
   }
 
@@ -26,7 +28,11 @@ export class ViewChords implements OnInit {
     this.router.navigate(['home']);
   }
 
-  openLink() {
+  openDownloadLink() {
     window.open(this.downloadLink, '_blank');
+  }
+  
+  openYoutubeLink() {
+    window.open(this.youtubeLink, '_blank');
   }
 }
