@@ -11,6 +11,6 @@ export class Header {
   private readonly router = inject(Router);
 
   goToHome() {
-    this.router.navigate(['home']);
+    this.router.navigate(['']);
   }
 }
