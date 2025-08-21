@@ -8,9 +8,11 @@
     font-size: 20px;
     width: fit-content;
     cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    color: gray;
 
     &:hover {
-      font-weight: 600;
+      color: black;
     }
   }
 }
@@ -21,6 +23,7 @@
 
     .song-list {
       font-size: 14px;
+      color: black;
     }
   }
 }
