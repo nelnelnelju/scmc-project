@@ -34,11 +34,13 @@
 
 @media screen and (min-width: 128px) and (max-width: 900px) {
   .buttons {
-    margin: 0 10px;
+    margin: 0 12px;
 
-    .back,
-    .link {
+    .back {
       display: none;
+    }
+    .link {
+      font-size: 14px;
     }
   }
 
@@ -48,7 +50,7 @@
       height: 100vh;
       display: flex;
       margin: auto;
-      margin-top: -20px;
+      margin-top: -46px;
     }
   }
 }
