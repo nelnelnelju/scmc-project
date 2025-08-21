@@ -34,7 +34,12 @@
 
 @media screen and (min-width: 128px) and (max-width: 900px) {
   .buttons {
-    margin: 0 12px;
+    margin: -20px 12px;
+    position: relative;
+    z-index: 1;
+    background: #F5F5F5;
+    height: 30px;
+    padding-top: 10px;
 
     .back {
       display: none;
@@ -50,7 +55,7 @@
       height: 100vh;
       display: flex;
       margin: auto;
-      margin-top: -43px;
+      margin-top: -75px;
     }
   }
 }
