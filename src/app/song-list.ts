@@ -39,4 +39,19 @@ export const SONGLIST = [
     title: 'Salamat Panginoon',
     downloadLink: 'https://docs.google.com/document/d/1Mg01DR9cJaLodYEoiWycFrpFgSmbd1Qp/edit?usp=drive_link&ouid=113146195665386428162&rtpof=true&sd=true'
   },
+  {
+    viewLink: 'https://docs.google.com/document/d/1MqF8DNSuLBLZv2XrfD4KVFRiBklSDDUR/preview?usp=drive_link&ouid=113146195665386428162&rtpof=true&sd=true',
+    title: 'Salamat Salamat',
+    downloadLink: 'https://docs.google.com/document/d/1MqF8DNSuLBLZv2XrfD4KVFRiBklSDDUR/edit?usp=drive_link&ouid=113146195665386428162&rtpof=true&sd=true'
+  },
+  {
+    viewLink: 'https://docs.google.com/document/d/1IPf48lHUHFWUPCCOyy1NbvMeUosGJx_O/preview?usp=drive_link&ouid=113146195665386428162&rtpof=true&sd=true',
+    title: 'What A Beautiful Name',
+    downloadLink: 'https://docs.google.com/document/d/1IPf48lHUHFWUPCCOyy1NbvMeUosGJx_O/edit?usp=drive_link&ouid=113146195665386428162&rtpof=true&sd=true'
+  },
+  {
+    viewLink: 'https://docs.google.com/document/d/1xn-R65xZLu7-b12TE0en7fL8ljVTdB7b/preview?usp=drive_link&ouid=113146195665386428162&rtpof=true&sd=true',
+    title: 'Oceans',
+    downloadLink: 'https://docs.google.com/document/d/1xn-R65xZLu7-b12TE0en7fL8ljVTdB7b/edit?usp=drive_link&ouid=113146195665386428162&rtpof=true&sd=true'
+  },
 ];
