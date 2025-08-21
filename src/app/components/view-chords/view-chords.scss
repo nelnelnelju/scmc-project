@@ -31,3 +31,24 @@
     margin: auto;
   }
 }
+
+@media screen and (min-width: 128px) and (max-width: 900px) {
+  .buttons {
+    margin: 0 10px;
+
+    .back,
+    .link {
+      display: none;
+    }
+  }
+
+  .container {
+    .window {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      margin: auto;
+      margin-top: -20px;
+    }
+  }
+}

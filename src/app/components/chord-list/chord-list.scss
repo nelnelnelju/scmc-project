@@ -14,3 +14,13 @@
     }
   }
 }
+
+@media screen and (min-width: 128px) and (max-width: 900px) {
+  .container {
+    margin-left: 20px;
+
+    .song-list {
+      font-size: 14px;
+    }
+  }
+}

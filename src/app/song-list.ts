@@ -12,7 +12,7 @@ export const SONGLIST = [
     youtubeLink: 'https://www.youtube.com/watch?v=CvMxmCfH2YY'
   },
   {
-    title: 'Sapat Na Higit Pa',
+    title: 'Sapat Na Higit Pa / Araw-Araw',
     viewLink: 'https://docs.google.com/document/d/1i1XMCGeli-_6msTHJZ8EO6jTL5sAMpK9/preview?usp=drive_link&ouid=113146195665386428162&rtpof=true&sd=true',
     downloadLink: 'https://docs.google.com/document/d/1i1XMCGeli-_6msTHJZ8EO6jTL5sAMpK9/edit?usp=drive_link&ouid=113146195665386428162&rtpof=true&sd=true',
     youtubeLink: 'https://www.youtube.com/watch?v=OIZxUGRmFK4'
