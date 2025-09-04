@@ -103,4 +103,28 @@ export const SONGLIST = [
       'https://docs.google.com/document/d/1i7f1m1a3r3FPeO2TyrrfjpXfTnS62ykz/edit?usp=drive_link&ouid=113146195665386428162&rtpof=true&sd=true',
     youtubeLink: 'https://www.youtube.com/watch?v=6AB3ku_c7Dw',
   },
+  {
+    title: 'Araw-Araw',
+    viewLink: 'https://docs.google.com/document/d/19D0t2NXBCZXAA2rqvpRndrlRt7riwqHd/preview?usp=drive_link&ouid=113146195665386428162&rtpof=true&sd=true',
+    downloadLink: 'https://docs.google.com/document/d/19D0t2NXBCZXAA2rqvpRndrlRt7riwqHd/edit?usp=drive_link&ouid=113146195665386428162&rtpof=true&sd=true',
+    youtubeLink: 'https://www.youtube.com/watch?v=wsDSIXQTC0w',
+  },
+  {
+    title: 'Worthy / Holy Forever',
+    viewLink: 'https://docs.google.com/document/d/1naqQWCr-291_5L_5bgplnWAUC10vbQ57/preview?usp=drive_link&ouid=113146195665386428162&rtpof=true&sd=true',
+    downloadLink: 'https://docs.google.com/document/d/1naqQWCr-291_5L_5bgplnWAUC10vbQ57/edit?usp=drive_link&ouid=113146195665386428162&rtpof=true&sd=true',
+    youtubeLink: 'https://www.youtube.com/watch?v=nOCcoKzCmio',
+  },
+  {
+    title: 'Natagpuan',
+    viewLink: 'https://docs.google.com/document/d/17Nx6dieMM9mn0iR83fKRnRoe_9ui900v/preview?usp=sharing&ouid=113146195665386428162&rtpof=true&sd=true',
+    downloadLink: 'https://docs.google.com/document/d/17Nx6dieMM9mn0iR83fKRnRoe_9ui900v/edit?usp=sharing&ouid=113146195665386428162&rtpof=true&sd=true',
+    youtubeLink: 'https://www.youtube.com/watch?v=hSRwXaQJ6ho',
+  },
+  // {
+  //   title: '',
+  //   viewLink: '',
+  //   downloadLink: '',
+  //   youtubeLink: '',
+  // },  
 ];
